@@ -1,0 +1,28 @@
+body{
+    font-family: arial;
+    background: #b2bec3;
+    padding:0;
+    margin: 0;
+}
+#table.form{
+    background: #FFB3A7;
+    padding: 20px 10px;
+}
+
+#success-message,
+#error-message{
+  background: #DEF1D8;
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  display: none;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 20;
+}
+#error-message{
+    background: #EFDCDD;
+    color: red;
+}
